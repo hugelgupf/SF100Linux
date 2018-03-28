@@ -73,6 +73,7 @@ long flash_ReadId(unsigned int read_id_code, unsigned int out_data_size ,int Ind
 
 
 int BulkPipeWrite(unsigned char *pBuff, unsigned int size,unsigned int timeOut, int Index);
+bool Is_usbworking(int Index);
 
 #endif //DEDI_USB_DRIVER
 
